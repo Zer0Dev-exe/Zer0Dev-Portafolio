@@ -1,0 +1,111 @@
+body {
+  background-color: #1a1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  background-image: url('https://j.gifs.com/J6XyPl.gif');
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+
+.profile-card {
+  background-color: #2a2a2a;
+  display: flex;
+  flex-wrap: wrap; /* Agregado para permitir el ajuste en pantallas pequeñas */
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Cambiado a flex-start para subir el contenido */
+  align-items: center; /* Alineación centrada en pantallas pequeñas */
+  margin-top: -10px; /* Ajustado el margen superior para subir el contenido */
+}
+
+.profile-name {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 3px; /* Ajustado el margen inferior para reducir el espacio */
+  text-align: center;
+}
+
+.profile-description {
+  font-size: 24px;
+  opacity: 0.4;
+  text-align: center;
+  margin-top: -5px; /* Ajustado el margen superior para subir el contenido */
+  margin-bottom: 0px;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Añadido para centrar verticalmente */
+  margin-top: 10px;
+}
+
+.profile-links a {
+  display: inline-block;
+  margin-right: 12px;
+  color: #ffffff;
+  background-color: #4d4c4c;
+  text-decoration: none;
+  font-size: 14px; /* Ajustado el tamaño de fuente para pantallas pequeñas */
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease;
+  padding: 10px 20px 5px;
+  border-radius: 5px;
+  border: 0px solid #ffffff;
+}
+
+.profile-links img {
+  width: 48px; /* Reducido el tamaño de las imágenes para pantallas pequeñas */
+  height: 48px;
+}
+
+.profile-links a:hover #github{
+  border-radius: 34px;
+  background-color: #acafad;
+  color: #2a2a2a;
+}
+.profile-links a:hover #twitter{
+  border-radius: 34px;
+  background-color: #0c75ee;
+  color: #2a2a2a;
+}
+.profile-links a:hover #youtube{
+  border-radius: 34px;
+  background-color: #ee0c0c;
+  color: #2a2a2a;
+}
+.profile-links a:hover #discord{
+  border-radius: 34px;
+  background-color: #4d6bf3;
+  color: #2a2a2a;
+}
+
+.profile-links a:hover #spotify{
+  border-radius: 34px;
+  background-color: #0cee50;
+  color: #2a2a2a;
+}
+
+.profile-links a:hover {
+  background-color: #ffffff;
+  color: #2a2a2a;
+}
